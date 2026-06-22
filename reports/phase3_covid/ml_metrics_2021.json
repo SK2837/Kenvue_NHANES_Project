@@ -1,0 +1,9 @@
+{
+  "cohort": "2021-2023",
+  "roc_auc": 0.9547,
+  "pr_auc": 0.7205,
+  "n_train": 3147,
+  "n_test": 787,
+  "n_events_test": 52,
+  "n_features": 31
+}

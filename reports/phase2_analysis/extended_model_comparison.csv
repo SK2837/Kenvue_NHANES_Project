@@ -1,0 +1,13 @@
+label,is_new,OR_orig,CI_low_orig,CI_high_orig,p_orig,sig_orig,OR_ext,CI_low_ext,CI_high_ext,p_ext,sig_ext
+Age (years),False,0.967,0.949,0.985,0.0044,✓,0.961,0.935,0.988,0.0191,✓
+Male sex,False,2.643,1.292,5.406,0.0159,✓,1.85,0.64,5.346,0.1623,
+Poverty-income ratio,False,1.011,0.863,1.186,0.8688,,1.037,0.829,1.297,0.6403,
+Waist circumference (cm),True,,,,,—,1.025,1.004,1.046,0.0316,✓
+Diabetes,False,2.197,1.061,4.548,0.0382,✓,2.048,0.799,5.249,0.0938,
+Ever smoker,False,0.707,0.436,1.144,0.1283,,0.605,0.317,1.156,0.0901,
+Weekly alcohol drinks (log),True,,,,,—,1.251,0.746,2.097,0.2613,
+Triglycerides (log),True,,,,,—,1.744,1.015,2.997,0.0467,✓
+College education,True,,,,,—,0.726,0.339,1.557,0.2739,
+log(Blood Lead),False,1.361,0.855,2.166,0.1556,,1.302,0.734,2.308,0.2393,
+log(Blood Cadmium),False,0.892,0.633,1.257,0.4459,,0.936,0.621,1.409,0.6417,
+log(Blood Mercury),False,1.06,0.888,1.265,0.4518,,1.027,0.848,1.243,0.6906,

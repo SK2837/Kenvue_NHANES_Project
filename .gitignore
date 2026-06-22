@@ -1,0 +1,48 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Raw NHANES data — downloaded automatically by src/01_download.py and src/11_download_nhanes_2021.py
+data/raw/
+data/raw_2021/
+
+# Environment / secrets
+.env
+*.env
+.envrc
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Generated HTML exports (not source)
+*.html
+
+# Legacy PowerPoint format
+*.ppt
+
+# Logs
+*.log
+logs/
+
+# Build / dist
+dist/
+build/
+*.egg-info/

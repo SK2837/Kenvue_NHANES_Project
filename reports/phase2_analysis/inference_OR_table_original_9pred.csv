@@ -1,0 +1,10 @@
+variable,label,beta,OR,CI_low,CI_high,p_value
+RIDAGEYR,Age (years),-0.0339,0.967,0.949,0.985,0.0044
+sex_male,Male sex,0.9719,2.643,1.292,5.406,0.0159
+INDFMPIR,Poverty-income ratio,0.0112,1.011,0.863,1.186,0.8688
+BMXBMI,BMI (kg/m²),0.064,1.066,1.03,1.103,0.0039
+diabetes,Diabetes,0.787,2.197,1.061,4.548,0.0382
+ever_smoker,Ever smoker,-0.3472,0.707,0.436,1.144,0.1283
+log_lead,log(Blood Lead),0.3083,1.361,0.855,2.166,0.1556
+log_cadmium,log(Blood Cadmium),-0.1144,0.892,0.633,1.257,0.4459
+log_mercury,log(Blood Mercury),0.0582,1.06,0.888,1.265,0.4518

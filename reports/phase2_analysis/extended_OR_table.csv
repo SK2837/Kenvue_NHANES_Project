@@ -1,0 +1,13 @@
+variable,label,beta,OR,CI_low,CI_high,p_value,significant
+RIDAGEYR,Age (years),-0.0398,0.961,0.935,0.988,0.0191,True
+sex_male,Male sex,0.6151,1.85,0.64,5.346,0.1623,False
+INDFMPIR,Poverty-income ratio,0.0364,1.037,0.829,1.297,0.6403,False
+BMXWAIST,Waist circumference (cm),0.0245,1.025,1.004,1.046,0.0316,True
+diabetes,Diabetes,0.7169,2.048,0.799,5.249,0.0938,False
+ever_smoker,Ever smoker,-0.5023,0.605,0.317,1.156,0.0901,False
+log_weekly_drinks,Weekly alcohol drinks (log),0.2241,1.251,0.746,2.097,0.2613,False
+log_triglycerides,Triglycerides (log),0.5564,1.744,1.015,2.997,0.0467,True
+college_edu,College education,-0.3201,0.726,0.339,1.557,0.2739,False
+log_lead,log(Blood Lead),0.2636,1.302,0.734,2.308,0.2393,False
+log_cadmium,log(Blood Cadmium),-0.0663,0.936,0.621,1.409,0.6417,False
+log_mercury,log(Blood Mercury),0.0264,1.027,0.848,1.243,0.6906,False

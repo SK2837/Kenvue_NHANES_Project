@@ -1,0 +1,4 @@
+variable,label,cohort,weighted_prev_pct,OR_univ,CI_low_univ,CI_high_univ,p_univ,OR_adj,CI_low_adj,CI_high_adj,p_adj,n_adj
+phq9_dep,Depression (PHQ-9 ≥10),2021-2023,11.8,0.956,0.581,1.573,0.8487,0.922,0.422,2.016,0.7887,2906
+short_sleep,Short sleep (<7 h/night),2021-2023,20.3,0.984,0.714,1.356,0.9139,0.929,0.583,1.48,0.6825,3228
+high_sedentary,High sedentary (≥8 h/day),2021-2023,33.6,1.028,0.675,1.563,0.8916,0.951,0.466,1.94,0.8552,3236

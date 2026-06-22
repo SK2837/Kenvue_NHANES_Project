@@ -1,0 +1,11 @@
+variable,label,cohort,beta,OR,CI_low,CI_high,p_value,significant,n,n_events
+RIDAGEYR,Age (years),2021-2023,-0.0216,0.979,0.962,0.995,0.0219,True,3256,222
+sex_male,Male sex,2021-2023,1.0752,2.93,2.047,4.195,0.0006,True,3256,222
+INDFMPIR,Poverty-income ratio,2021-2023,0.0153,1.015,0.85,1.214,0.8344,False,3256,222
+BMXWAIST,Waist circumference (cm),2021-2023,0.0174,1.018,1.006,1.029,0.012,True,3256,222
+diabetes,Diabetes,2021-2023,-0.1075,0.898,0.412,1.959,0.7376,False,3256,222
+ever_smoker,Ever smoker,2021-2023,-0.6153,0.54,0.259,1.127,0.0841,False,3256,222
+log_triglycerides,Triglycerides (log),2021-2023,0.6765,1.967,1.23,3.146,0.014,True,3256,222
+log_lead,log(Blood Lead),2021-2023,-0.0204,0.98,0.626,1.533,0.9111,False,3256,222
+log_cadmium,log(Blood Cadmium),2021-2023,0.1562,1.169,0.926,1.475,0.1448,False,3256,222
+log_mercury,log(Blood Mercury),2021-2023,0.0923,1.097,0.898,1.339,0.2881,False,3256,222

@@ -1,0 +1,7 @@
+Step,N_before,N_dropped,N_after
+1. Adults ≥18,11933,3780,8153
+2. MEC-examined,8153,1816,6337
+3. ALT measured,6337,684,5653
+4. HepB antigen −,5653,1388,4265
+5. HepC antibody −,4265,17,4248
+6. Non-excessive alcohol,4248,314,3934

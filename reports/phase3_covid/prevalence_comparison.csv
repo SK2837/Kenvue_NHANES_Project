@@ -1,0 +1,39 @@
+group,subgroup,variable,label,cohort,prev_pct,n
+Primary Outcome,All,ALT_elevated_40,ALT > 40 U/L (all),2017-2018,8.15,3543
+Primary Outcome,All,ALT_elevated,ALT elevated sex-specific,2017-2018,5.24,3543
+ALT by Sex,Male,ALT_elevated_40,ALT>40 — Male,2017-2018,11.86,1723
+ALT by Sex,Female,ALT_elevated_40,ALT>40 — Female,2017-2018,4.74,1820
+ALT by Age,18-39,ALT_elevated_40,ALT>40 — 18-39,2017-2018,12.39,935
+ALT by Age,40-59,ALT_elevated_40,ALT>40 — 40-59,2017-2018,9.14,1109
+ALT by Age,60+,ALT_elevated_40,ALT>40 — 60+,2017-2018,3.56,1499
+ALT by Race,NH White,ALT_elevated_40,ALT>40 — NH White,2017-2018,7.43,1308
+ALT by Race,NH Black,ALT_elevated_40,ALT>40 — NH Black,2017-2018,4.94,760
+ALT by Race,Mexican Am.,ALT_elevated_40,ALT>40 — Mexican Am.,2017-2018,13.73,544
+ALT by Race,NH Asian,ALT_elevated_40,ALT>40 — NH Asian,2017-2018,9.06,405
+Risk Factors,All,diabetes,Diabetes,2017-2018,14.24,3540
+Risk Factors,All,obese,Obesity (BMI≥30),2017-2018,44.99,3483
+Risk Factors,All,central_obesity,Central obesity,2017-2018,63.87,3348
+Risk Factors,All,ever_smoker,Ever smoker,2017-2018,41.17,3543
+Demographics,All,sex_male,Male sex,2017-2018,47.82,3543
+Wellness / COVID-era,All,phq9_dep,Depression (PHQ-9 ≥10),2017-2018,8.16,3293
+Wellness / COVID-era,All,short_sleep,Short sleep (<7h),2017-2018,24.99,3518
+Wellness / COVID-era,All,high_sedentary,High sedentary (≥8h/day),2017-2018,30.24,3519
+Primary Outcome,All,ALT_elevated_40,ALT > 40 U/L (all),2021-2023,7.36,3934
+Primary Outcome,All,ALT_elevated,ALT elevated sex-specific,2021-2023,5.68,3934
+ALT by Sex,Male,ALT_elevated_40,ALT>40 — Male,2021-2023,10.56,1822
+ALT by Sex,Female,ALT_elevated_40,ALT>40 — Female,2021-2023,4.25,2112
+ALT by Age,18-39,ALT_elevated_40,ALT>40 — 18-39,2021-2023,8.0,936
+ALT by Age,40-59,ALT_elevated_40,ALT>40 — 40-59,2021-2023,10.32,1072
+ALT by Age,60+,ALT_elevated_40,ALT>40 — 60+,2021-2023,3.95,1926
+ALT by Race,NH White,ALT_elevated_40,ALT>40 — NH White,2021-2023,6.46,2400
+ALT by Race,NH Black,ALT_elevated_40,ALT>40 — NH Black,2021-2023,5.55,427
+ALT by Race,Mexican Am.,ALT_elevated_40,ALT>40 — Mexican Am.,2021-2023,11.21,296
+ALT by Race,NH Asian,ALT_elevated_40,ALT>40 — NH Asian,2021-2023,10.31,160
+Risk Factors,All,diabetes,Diabetes,2021-2023,12.98,3933
+Risk Factors,All,obese,Obesity (BMI≥30),2021-2023,42.38,3878
+Risk Factors,All,central_obesity,Central obesity,2021-2023,59.95,3741
+Risk Factors,All,ever_smoker,Ever smoker,2021-2023,36.18,3929
+Demographics,All,sex_male,Male sex,2021-2023,49.33,3934
+Wellness / COVID-era,All,phq9_dep,Depression (PHQ-9 ≥10),2021-2023,11.76,3413
+Wellness / COVID-era,All,short_sleep,Short sleep (<7h),2021-2023,20.26,3894
+Wellness / COVID-era,All,high_sedentary,High sedentary (≥8h/day),2021-2023,33.63,3906

@@ -1,0 +1,14 @@
+variable,label,category,orig_OR,orig_95CI,orig_p,orig_sig,orig_stars,updated_OR,updated_95CI,updated_p,updated_sig,updated_stars,extended_OR,extended_95CI,extended_p,extended_sig,extended_stars,significant_in_any_model
+INDFMPIR,Poverty-income ratio,Demographics,1.011,0.863–1.186,0.8688,False,,1.015,0.864–1.192,0.8226,False,,1.037,0.829–1.297,0.6403,False,,False
+RIDAGEYR,Age (years),Demographics,0.967,0.949–0.985,0.0044,True,**,0.96,0.939–0.982,0.0052,True,**,0.961,0.935–0.988,0.0191,True,*,True
+sex_male,Male sex,Demographics,2.643,1.292–5.406,0.0159,True,*,2.025,0.937–4.377,0.0654,False,,1.85,0.640–5.346,0.1623,False,,True
+BMXBMI,BMI (kg/m²),Anthropometrics,1.066,1.030–1.103,0.0039,True,**,—,—,—,—,—,—,—,—,—,—,True
+BMXWAIST,Waist circumference (cm),Anthropometrics,—,—,—,—,—,1.027,1.009–1.044,0.0115,True,*,1.025,1.004–1.046,0.0316,True,*,True
+diabetes,Diabetes,Clinical,2.197,1.061–4.548,0.0382,True,*,1.975,0.922–4.232,0.07,False,,2.048,0.799–5.249,0.0938,False,,True
+log_triglycerides,Triglycerides (log),Clinical,—,—,—,—,—,1.773,1.160–2.710,0.0179,True,*,1.744,1.015–2.997,0.0467,True,*,True
+ever_smoker,Ever smoker,Behavioral,0.707,0.436–1.144,0.1283,False,,0.641,0.376–1.095,0.086,False,,0.605,0.317–1.156,0.0901,False,,False
+log_weekly_drinks,Weekly alcohol drinks (log),Behavioral,—,—,—,—,—,—,—,—,—,—,1.251,0.746–2.097,0.2613,False,,False
+college_edu,College education,Social,—,—,—,—,—,—,—,—,—,—,0.726,0.339–1.557,0.2739,False,,False
+log_cadmium,log(Blood Cadmium),Environmental,0.892,0.633–1.257,0.4459,False,,0.937,0.661–1.328,0.6507,False,,0.936,0.621–1.409,0.6417,False,,False
+log_lead,log(Blood Lead),Environmental,1.361,0.855–2.166,0.1556,False,,1.373,0.837–2.252,0.1601,False,,1.302,0.734–2.308,0.2393,False,,False
+log_mercury,log(Blood Mercury),Environmental,1.06,0.888–1.265,0.4518,False,,1.042,0.887–1.223,0.5416,False,,1.027,0.848–1.243,0.6906,False,,False

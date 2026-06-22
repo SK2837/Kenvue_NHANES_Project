@@ -1,0 +1,4 @@
+variable,label,weighted_prev_pct_2017,OR_univ_2017,CI_low_univ_2017,CI_high_univ_2017,p_univ_2017,OR_adj_2017,CI_low_adj_2017,CI_high_adj_2017,p_adj_2017,weighted_prev_pct_2021,OR_univ_2021,CI_low_univ_2021,CI_high_univ_2021,p_univ_2021,OR_adj_2021,CI_low_adj_2021,CI_high_adj_2021,p_adj_2021,sig_adj_2017,sig_adj_2021
+high_sedentary,High sedentary (≥8 h/day),30.2,0.785,0.476,1.294,0.3166,0.673,0.307,1.473,0.2329,33.6,1.028,0.675,1.563,0.8916,0.951,0.466,1.94,0.8552,,
+phq9_dep,Depression (PHQ-9 ≥10),8.2,1.148,0.61,2.163,0.6463,1.371,0.465,4.042,0.4627,11.8,0.956,0.581,1.573,0.8487,0.922,0.422,2.016,0.7887,,
+short_sleep,Short sleep (<7 h/night),25.0,1.332,0.782,2.27,0.2677,1.102,0.559,2.172,0.7109,20.3,0.984,0.714,1.356,0.9139,0.929,0.583,1.48,0.6825,,

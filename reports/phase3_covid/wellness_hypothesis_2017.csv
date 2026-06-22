@@ -1,0 +1,4 @@
+variable,label,cohort,weighted_prev_pct,OR_univ,CI_low_univ,CI_high_univ,p_univ,OR_adj,CI_low_adj,CI_high_adj,p_adj,n_adj
+phq9_dep,Depression (PHQ-9 ≥10),2017-2018,8.2,1.148,0.61,2.163,0.6463,1.371,0.465,4.042,0.4627,2779
+short_sleep,Short sleep (<7 h/night),2017-2018,25.0,1.332,0.782,2.27,0.2677,1.102,0.559,2.172,0.7109,2908
+high_sedentary,High sedentary (≥8 h/day),2017-2018,30.2,0.785,0.476,1.294,0.3166,0.673,0.307,1.473,0.2329,2906

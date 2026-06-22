@@ -1,0 +1,19 @@
+Group,Category,Weighted prevalence (%),N
+Overall,Overall,5.2,3543
+Sex,Male,3.9,1723
+Sex,Female,6.5,1820
+Age group,18-40,8.7,935
+Age group,41-60,4.9,1109
+Age group,60+,2.7,1499
+Race/Ethnicity,Mexican American,8.9,544
+Race/Ethnicity,Other Hispanic,5.7,344
+Race/Ethnicity,Non-Hispanic White,4.5,1308
+Race/Ethnicity,Non-Hispanic Black,3.4,760
+Race/Ethnicity,Non-Hispanic Asian,7.0,405
+Race/Ethnicity,Other/Multi-racial,9.2,182
+BMI category,<25 (Normal),2.0,831
+BMI category,25-30 (Overweight),3.5,1138
+BMI category,≥30 (Obese),8.3,1514
+Diabetes status,Diabetes,4.9,633
+Diabetes status,No diabetes,5.3,2788
+Diabetes status,Borderline,4.6,119

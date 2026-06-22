@@ -1,0 +1,10 @@
+variable,label,OR,CI_low,CI_high,p_value
+RIDAGEYR,Age (years),0.966,0.945,0.988,0.0097
+INDFMPIR,Poverty-income ratio,0.944,0.775,1.149,0.4987
+BMXWAIST,Waist circumference (cm),1.026,1.01,1.041,0.0061
+diabetes,Diabetes,0.954,0.429,2.121,0.8891
+ever_smoker,Ever smoker,0.774,0.41,1.462,0.3629
+log_triglycerides,Triglycerides (log),1.823,1.282,2.593,0.0059
+log_lead,log(Blood Lead),1.174,0.719,1.918,0.4544
+log_cadmium,log(Blood Cadmium),1.056,0.743,1.502,0.7177
+log_mercury,log(Blood Mercury),1.117,0.941,1.328,0.1656
