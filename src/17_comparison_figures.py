@@ -221,9 +221,10 @@ def make_dashboard(data: dict, path: Path) -> None:
     panel_ml_metrics(ax_d)
 
     fig.suptitle(
-        "Phase 3: Pre-COVID (2017-2018) vs Post-COVID (2021-2023) — NHANES ALT Analysis\n"
-        "Survey-weighted | 10-predictor logistic model | XGBoost SHAP",
-        fontsize=13, fontweight="bold", y=1.01,
+        "Phase 3: NHANES 2017-2018 vs 2021-2023 Cohort Comparison — ALT Analysis\n"
+        "Survey-weighted | 10-predictor logistic model | XGBoost SHAP\n"
+        "(Descriptive cross-cohort comparison; differences reflect cohort, weighting, and cycle-length variation)",
+        fontsize=12, fontweight="bold", y=1.01,
     )
 
     fig.savefig(path, bbox_inches="tight", dpi=150)
@@ -234,10 +235,10 @@ def make_dashboard(data: dict, path: Path) -> None:
 # ── COVID impact narrative figure ──────────────────────────────────────────────
 
 def make_covid_impact_figure(data: dict, path: Path) -> None:
-    """A cleaner single-message figure: what changed in the liver health landscape post-COVID."""
+    """Cohort-comparison figure: what differed between NHANES 2017-2018 and 2021-2023."""
     fig, axes = plt.subplots(1, 3, figsize=(16, 6))
     fig.suptitle(
-        "What Changed in Liver Health Risk After COVID? (NHANES 2017→2021)",
+        "NHANES 2017-2018 vs 2021-2023: Liver Health Cohort Comparison",
         fontsize=13, fontweight="bold", y=1.02,
     )
 
@@ -335,10 +336,12 @@ def make_covid_impact_figure(data: dict, path: Path) -> None:
     # Annotation box
     fig.text(
         0.5, -0.04,
-        "Key finding: COVID-era lifestyle disruptions (more depression +3.6pp, more sedentary +3.4pp) "
-        "increased in prevalence but are NOT significant predictors of elevated ALT after metabolic adjustment.\n"
-        "The dominant finding: male sex became HIGHLY significant post-COVID (OR 2.03→2.93, p<0.001), "
-        "while diabetes effect diminished — suggesting COVID-era metabolic shifts disproportionately affected males.",
+        "Lifestyle variables (depression +3.6pp, sedentary +3.4pp) increased in prevalence between cohorts "
+        "but were not significant ALT predictors in either cohort after metabolic adjustment.\n"
+        "The male sex association was stronger in the 2021-2023 cohort (OR 2.03→2.93) "
+        "while the diabetes association was attenuated — cohort differences that warrant further investigation.\n"
+        "Note: 2021-2023 uses a 3-year survey cycle with updated design weights; "
+        "this comparison is descriptive and does not establish a causal COVID effect.",
         ha="center", va="center", fontsize=9, style="italic",
         bbox=dict(boxstyle="round,pad=0.4", facecolor="#FFF9C4", edgecolor="#E5A800", alpha=0.9),
     )

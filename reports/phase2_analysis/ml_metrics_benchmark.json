@@ -1,0 +1,27 @@
+{
+  "roc_auc": 0.9662,
+  "pr_auc": 0.7466,
+  "optimal_threshold": 0.0444,
+  "sensitivity": 0.963,
+  "specificity": 0.8824,
+  "ppv": 0.4031,
+  "npv": 0.9966,
+  "n_test": 709,
+  "n_events_test": 54,
+  "confusion_matrix": {
+    "TP": 52,
+    "TN": 578,
+    "FP": 77,
+    "FN": 2
+  },
+  "best_params": {
+    "learning_rate": 0.1,
+    "max_depth": 3,
+    "n_estimators": 100,
+    "subsample": 0.8
+  },
+  "n_features_selected": 10,
+  "n_features_total": 31,
+  "model_label": "benchmark (leaky)",
+  "leakage_warning": "Includes liver co-travelers (AST, GGT, ALP, albumin, globulin, bilirubin, total protein). High AUC reflects biochemical collinearity, not genuine predictive signal. Use clean model (ml_metrics.json) for all clinical and public-health claims."
+}

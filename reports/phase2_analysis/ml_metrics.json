@@ -1,18 +1,18 @@
 {
-  "roc_auc": 0.9731,
-  "pr_auc": 0.7926,
-  "optimal_threshold": 0.0993,
-  "sensitivity": 0.9259,
-  "specificity": 0.9221,
-  "ppv": 0.495,
-  "npv": 0.9934,
+  "roc_auc": 0.7732,
+  "pr_auc": 0.2893,
+  "optimal_threshold": 0.0493,
+  "sensitivity": 0.8148,
+  "specificity": 0.6244,
+  "ppv": 0.1517,
+  "npv": 0.9761,
   "n_test": 709,
   "n_events_test": 54,
   "confusion_matrix": {
-    "TP": 50,
-    "TN": 604,
-    "FP": 51,
-    "FN": 4
+    "TP": 44,
+    "TN": 409,
+    "FP": 246,
+    "FN": 10
   },
   "best_params": {
     "learning_rate": 0.05,
@@ -20,6 +20,7 @@
     "n_estimators": 100,
     "subsample": 0.8
   },
-  "n_features_selected": 31,
-  "n_features_total": 31
+  "n_features_selected": 15,
+  "n_features_total": 24,
+  "model_label": "clean"
 }

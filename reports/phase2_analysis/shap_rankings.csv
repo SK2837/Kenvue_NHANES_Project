@@ -1,32 +1,16 @@
 feature,label,mean_abs_shap
-LBXSASSI,AST,1.7843572
-LBXSGTSI,GGT,0.40900055
-RIDAGEYR,Age,0.3756363
-BMXBMI,BMI,0.13983
-LBXSTR,Triglycerides,0.094401985
-BMXWAIST,Waist circumference,0.07780278
-log_mercury,log(Blood Mercury),0.073624425
-LBXSAL,Albumin,0.0716659
-LBXSGL,Glucose,0.07162925
-LBXSGB,Globulin,0.07061403
-LBXSCK,Creatine kinase,0.07008748
-LBXSIR,Iron,0.061089143
-ALQ121,Drinking frequency,0.044436853
-LBXSCR,Creatinine,0.044363406
-INDFMPIR,Poverty-income ratio,0.036692314
-sex_male,Male sex,0.03584715
-LBXSCA,Calcium,0.029629791
-LBXSCH,Cholesterol,0.022109281
-log_cadmium,log(Blood Cadmium),0.021571158
-LBXSAPSI,ALP,0.021009618
-LBXSUA,Uric acid,0.020020837
-LBXSCLSI,Chloride,0.01997866
-log_lead,log(Blood Lead),0.016914075
-LBXSOSSI,Osmolality,0.008456711
-LBXSBU,BUN,0.007752827
-LBXSTP,Total protein,0.0072065988
-ever_smoker,Ever smoker,0.0056485953
-LBXSC3SI,Bicarbonate,0.005602463
-LBXSTB,Total bilirubin,0.004953699
-LBXSPH,Phosphorus,0.0034365868
-diabetes,Diabetes,0.0
+RIDAGEYR,Age,0.39228517
+LBXSTR,Triglycerides,0.2682106
+LBXSIR,Iron,0.26579854
+LBXSGL,Glucose,0.26204887
+BMXBMI,BMI,0.22301126
+LBXSCK,Creatine kinase,0.19768205
+LBXSUA,Uric acid,0.19524764
+LBXSCR,Creatinine,0.1722259
+sex_male,Male sex,0.12671222
+LBXSCLSI,Chloride,0.11529325
+BMXWAIST,Waist circumference,0.1109811
+log_mercury,log(Blood Mercury),0.08781731
+log_lead,log(Blood Lead),0.06259518
+LBXSC3SI,Bicarbonate,0.028113918
+LBXSPH,Phosphorus,0.026941897
